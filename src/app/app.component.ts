@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dsi-countdown-timer';
+  
+  handleTimerExpiredEvent(): void {
+    console.log("App: event handled");
+  }
 }
